@@ -170,9 +170,8 @@ function getCachedData(url, cache_expiry_time) {
  * 
  * Fetches data. Either by calling getCachedData or fetchJSON, depending on the cache configuration parameter.
  * 
- * @param   {String}  url   The URL to get the data from
- * @param   {Boolean} cache Parameter to determine whether the request should be cached
- * @returns {Object}        The response object
+ * @param   {Object}  configParams  The URL to get the data from
+ * @returns {Object}                The response object
  */
 function fetchData(configParams) {
   const url = configParams.url;
