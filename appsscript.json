@@ -1,0 +1,18 @@
+{
+  "timeZone": "Africa/Lagos",
+  "dependencies": {},
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "dataStudio": {
+    "name": "npm Downloads",
+    "logoUrl": "https://avatars.githubusercontent.com/u/19387360?v=4",
+    "company": "Google Data Studio Developer Relations",
+    "companyUrl": "https://developers.google.com/datastudio/",
+    "addonUrl": "https://github.com/googledatastudio/community-connectors/tree/master/npm-downloads#readme",
+    "supportUrl": "https://github.com/googledatastudio/community-connectors/issues",
+    "description": "Get npm package download counts.",
+    "sources": [
+      "phxlabs"
+    ]
+  }
+}

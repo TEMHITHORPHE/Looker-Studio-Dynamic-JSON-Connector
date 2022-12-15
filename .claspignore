@@ -1,0 +1,15 @@
+# ignore all files…
+**/**
+
+# except the extensions…
+!package.json
+!package-lock.json
+!appsscript.json
+!src/*.gs
+!src/*.js
+!src/*.ts
+!src/*.html
+
+# ignore even valid files if in…
+.git/**
+node_modules/**
