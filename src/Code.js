@@ -170,7 +170,7 @@ function getCachedData(url, cache_expiry_time) {
  * 
  * Fetches data. Either by calling getCachedData or fetchJSON, depending on the cache configuration parameter.
  * 
- * @param   {Object}  configParams  The URL to get the data from
+ * @param   {Object}  configParams  An object containing the user provided values for the config parameters defined by the connector.
  * @returns {Object}                The response object
  */
 function fetchData(configParams) {
